@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    padding:20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+   
+}
+.welcomeSection{
+    width:30%;
+    align-self: center;
+}
+.buttons{
+    display:flex;
+    justify-content: space-between;
+    margin:20px 0;
+}
+#login, #signUp{
+    border:1px solid black;
+    /* border-radius: 35%; */
+    padding:10px 30px;
+    font-size: larger;
+    text-decoration: none;
+
+}
+#login:hover, #signUp:hover{
+    cursor: pointer;
+    background-color: #E4F0FE;
+}
+

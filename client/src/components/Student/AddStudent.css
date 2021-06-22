@@ -1,0 +1,30 @@
+form {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 50px 20px 0px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  #add-student-btn {
+    align-self: center;
+    width: 100px;
+    font-size: large;
+    margin-top: 20px;
+  
+  }
+  label {
+    display: inline-block;
+    width: 100%;
+    font-size: large;
+  }
+  input {
+    width: 90%;
+    padding: 15px 15px;
+    margin: 0 5px;
+    height: 20px;
+    font-size: large;
+  }
