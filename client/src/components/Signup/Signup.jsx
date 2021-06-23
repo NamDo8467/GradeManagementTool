@@ -51,12 +51,12 @@ const Signup = () => {
       <div className="container">
         <div className="name-input">
           <label>Name: </label>
-          <input type="text" id="name" name="name" onChange={getNameValue} />
+          <input type="text" id="name" name="name" onChange={getNameValue} required />
         </div>
         <br />
         <div className="email-input">
           <label>Email: </label>
-          <input type="text" id="email" name="email" onChange={getEmailValue} />
+          <input type="text" id="email" name="email" onChange={getEmailValue} required />
         </div>
         <br />
         <div className="password-input">
@@ -66,6 +66,7 @@ const Signup = () => {
             id="password"
             name="password"
             onChange={getPasswordValue}
+            required
           />
         </div>
         <br />

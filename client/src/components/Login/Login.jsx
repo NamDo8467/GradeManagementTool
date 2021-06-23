@@ -75,6 +75,7 @@ const Login = () => {
               type="text"
               id="email"
               name="email"
+              required
               onChange={getEmailValue}
             />
           </div>
@@ -85,6 +86,7 @@ const Login = () => {
               type="password"
               id="password"
               name="password"
+              required
               onChange={getPasswordValue}
             />
           </div>

@@ -46,8 +46,8 @@ function AddStudent(props) {
             type="text"
             id="name"
             name="name"
+            required
             onChange={(e) => setName(e.target.value)}
-        
           />
         </div>
         <br />
@@ -56,6 +56,7 @@ function AddStudent(props) {
           <select
             name="subjects"
             id="subjects"
+            required
             onChange={(e) => {
               setSubject(e.target.value)
         
@@ -75,6 +76,7 @@ function AddStudent(props) {
             type="text"
             id="grade"
             name="grade"
+            required
             onChange={(e) => setGrade(e.target.value)}
           />
         </div>
