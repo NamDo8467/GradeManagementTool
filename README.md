@@ -11,7 +11,7 @@ cd server
 npm install
 ```
 
-Create your .env file and add the database connection. Change the "username" and "password" to your own
+Making the connection to database,create your .env file, paste the code below. Change the "username" and "password" to your own
 
 
  ```bash
